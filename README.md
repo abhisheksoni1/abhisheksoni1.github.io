@@ -11,7 +11,7 @@ Plain HTML + one CSS file. No build step, no dependencies, no JavaScript.
 | `index.html` | Home — bio, links, three recent-work cards |
 | `about.html` | Experience, education, patents, coursework, contact |
 | `publications.html` | 21 peer-reviewed papers + in-preparation + patent |
-| `teaching.html` | Teaching philosophy, experience, mentorship training, trainees |
+| `teaching.html` | Teaching experience, mentorship training, outreach |
 | `talks.html` | Conference talks and posters by year |
 | `awards.html` | Honors, leadership, community service, peer review |
 | `news.html` | Reverse-chronological updates |
