@@ -24,21 +24,17 @@ Plain HTML + one CSS file. No build step, no dependencies, no JavaScript.
   (`avatars.githubusercontent.com/u/39748033`). Change your GitHub profile
   picture and the site follows automatically. To use a local file instead,
   save it as `images/headshot.jpg` and change the `src` in `index.html`.
-- **Geological hydrogen figure** — hotlinked from your own CC BY 4.0 data
-  repository for that manuscript (`2D Response Surfaces/Temp_degC_vs_FeCl_2_mmol.png`).
 
-## Adding the two remaining figures
+The three recent-work cards on the home page are text-only. To add a figure to
+one: save the image into `images/`, delete `" nofig"` from that card's `class`
+in `index.html`, and add `<img class="figure" src="images/yourfile.png" alt="…">`
+as the card's first child.
 
-The Nature Communications and Matter cards are text-only for now. To add a figure:
-
-1. Save it into `images/` as `adacarbon.png` or `gde.png`.
-2. In `index.html`, find that card, delete `" nofig"` from its `class`, and
-   uncomment the `<img class="figure" …>` line just below.
-
-Use a figure you have the right to republish — the publisher's own PDF figures
-are usually under the journal's copyright, while author-accepted manuscripts and
-open-access versions normally are not. Do not use the figures from your research
-statement: two of them are watermarked "Private and Confidential / Berlinguette Lab".
+Use a figure you have the right to republish — the publisher's typeset PDF
+figures are usually under the journal's copyright, while author-accepted
+manuscripts and open-access versions normally are not. Do not use the figures
+from your research statement: two are watermarked "Private and Confidential /
+Berlinguette Lab".
 
 ## Still to fill in
 
