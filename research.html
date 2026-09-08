@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research · Abhishek Soni</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="bar">
+    <a class="brand" href="index.html">Abhishek Soni</a>
+    <nav class="main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching &amp; Mentoring</a>
+      <a href="talks.html">Talks/Posters</a>
+      <a href="awards.html">Awards &amp; Service</a>
+      <a href="news.html">News</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <h1>Research</h1>
+  <p class="sub">Materials Innovation Lab — accelerated materials discovery through intelligent computation, AI and robotics</p>
+
+  <p class="lede">Global energy demand is projected to rise 30–50% by 2050. At the heart of every advance in catalysis, energy conversion and storage is a new material and a new interface — and a new material still takes 10–20 years to travel from concept to deployment.</p>
+
+  <p>That bottleneck has identifiable causes: vast design spaces, complex interfacial chemistry, labour-intensive testing, and a persistent gap between material-level measurement and device-level performance. Laboratory automation, multiscale simulation and machine learning now make it possible to restructure the process. Coupling autonomous workflows to ML-guided decision-making in self-driving laboratories (SDLs) can accelerate discovery by two to three orders of magnitude.</p>
+
+  <div class="callout">
+    <p><strong>The program in one sentence.</strong> Build low-cost, high-precision autonomous workflows in which multiscale simulation, physics-informed AI and robotic experimentation continuously correct one another — targeting discovery 10–100× faster than conventional practice.</p>
+  </div>
+
+  <h2>Three integrated axes</h2>
+
+  <h3>1 · Generative AI for inverse design</h3>
+  <p>Use generative AI in collaboration with human expertise to propose and screen mechanisms, materials and descriptors beyond human-defined search spaces — covalent organic frameworks (COFs), metal–organic frameworks (MOFs), high-entropy alloys and mixed-metal catalysts.</p>
+
+  <h3>2 · Physics-informed AI coupled to multiscale simulation</h3>
+  <p>Build surrogate models that carry real interfacial physics and bridge DFT and molecular dynamics to costly experiment, so that predictions stay meaningful outside the training distribution.</p>
+
+  <h3>3 · Multi-fidelity active learning in a closed loop</h3>
+  <p>Integrate multi-fidelity active learning into a low-cost SDL to find high-performing materials and process parameters while minimizing the number of expensive simulations and reactor tests.</p>
+
+  <p>Because this methodological core is chemistry-agnostic, it transfers across materials portfolios rather than being confined to a single system.</p>
+
+  <h2>Flagship project</h2>
+  <p>Automated workflows that combine large language models with multi-fidelity Bayesian optimization to accelerate catalyst testing. The group will first train a high-fidelity model on simulation-derived properties to predict product-selectivity metrics, then a multi-fidelity, physics-informed model that estimates those same metrics directly from compositional and characterization descriptors — the cheap measurements — without running the time-intensive reactor test.</p>
+  <p>All formulations are proposed computationally; only selected candidates proceed to experimental closed-loop reactor testing. Target: <strong>&gt;80% prediction accuracy</strong> at a fraction of the experimental and computational load. To date there has been no study of multi-fidelity models trained on real experimental data for electro(thermo)chemical reactions.</p>
+
+  <h2>Application areas</h2>
+  <ul class="plain">
+    <li><strong>Solar-driven, seawater-mediated carbon capture and conversion</strong> — integrated capture and conversion using photo-electrocatalysts.</li>
+    <li><strong>Geothermal and subsurface thermochemical fuels</strong> — robust rock–water reactions and mechanically resilient reactor materials, including high-entropy alloys.</li>
+    <li><strong>Nitrogen reduction</strong> — both cathodes and anodes, using the same closed-loop methodology.</li>
+    <li><strong>Extraterrestrial environments</strong> — reactor chemistry that also works off Earth, extending earlier work on thermoelectrically powered CO<sub>2</sub> conversion for Martian settings.</li>
+  </ul>
+
+  <h2>Background</h2>
+
+  <h3>Interfacial chemistry and heterogeneous ice nucleation</h3>
+  <p class="small">Ph.D., UBC, with Prof. Gren Patey</p>
+  <p>I developed machine-learning models that cut the classical molecular dynamics time needed to predict the ice-nucleating ability of atmospheric mineral substrates, reaching 90% prediction accuracy from just 300 ns of substrate–water simulation. Across seven publications I showed that interfacial water structure combined with <em>2D</em> lattice match — not the 3D lattice-match picture used for decades — governs nucleation ability. This established the core competency behind everything since: extracting physically meaningful descriptors of solid–liquid interfaces and learning on them.</p>
+
+  <h3>Electrochemistry and self-driving laboratories</h3>
+  <p class="small">Postdoc, UBC, with Prof. Curtis Berlinguette</p>
+  <p>I led AdaCarbon, an SDL in which seven robots autonomously synthesize, characterize and test CO<sub>2</sub>-reduction catalysts, accelerating CO<sub>2</sub> electrolysis research threefold; my principal contribution was the first automated zero-gap CO<sub>2</sub> electrolyzer (<em>Matter</em>). I also led a thermoelectrically powered CO<sub>2</sub> electrolyzer converting waste heat and waste CO<sub>2</sub> into fuels, with applications to geothermal plants and Martian colonization (<em>Device</em>; <em>RSC Sustainability</em>) — work that drew coverage across several media platforms. Using AdaCarbon I ran closed-loop, AI-guided optimization over a six-dimensional reaction space and resolved the long-standing tension between carbon utilization and product selectivity (AI4Mat@NeurIPS 2025; accepted, <em>Nature Communications</em>). With Prof. Yoshua Bengio's group at Mila I co-developed a physics-based ML model for screening gas-diffusion electrodes (ICLR 2025).</p>
+
+  <h3>Geological hydrogen and human–AI experimentation</h3>
+  <p class="small">MIT, with Prof. Iwnetim Abate</p>
+  <p>I apply a human–AI collaborative strategy to hydrogen generation from rocks, achieving yields up to 100× higher than state-of-the-art techniques, and use active learning to reveal which rock compositional features control stimulated production. I serve as research lead for an MIT–TotalEnergies collaboration with Prof. Tonio Buonassisi building the first SDL for anion-exchange-membrane water electrolyzers.</p>
+
+  <h2>Collaboration and dissemination</h2>
+  <p>Planned external funding from NSF, ARPA-E, and the Department of Energy's AI for Science and Genesis programs. Collaborations with national laboratories including ANL and BNL, and industry partners including Shell, NASA, TotalEnergies, Toyota Research Institute and IBM. Results disseminated at ACS, AIChE, ECS, MRS, Accelerate and NeurIPS.</p>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    Abhishek Soni · Department of Materials Science and Engineering, MIT, Cambridge, MA 02139 · <a href="mailto:abhisoni@mit.edu">abhisoni@mit.edu</a>
+  </div>
+</footer>
+
+</body>
+</html>
